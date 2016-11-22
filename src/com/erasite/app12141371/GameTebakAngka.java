@@ -94,4 +94,11 @@ public class GameTebakAngka {
                             }
                         }
                     }
+                    if(CekGameOver>0){
+                        break;
+                    }
+                    
+                    if(PilihanLevel==5){
+                        break;
+                    }
 }
