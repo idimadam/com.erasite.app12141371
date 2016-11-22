@@ -48,4 +48,10 @@ public class GameTebakAngka {
                     System.out.println("Silahkan Tebak Antara 1 s/d " + BatasTebak);
                     System.out.println("Anda mempunyai kesempatan menebak 5 kali");
                     int AngkaAcak=angkaRandom.nextInt(BatasTebak);
+                    
+                    for(Cek =0;Cek<=5;Cek++){
+                        if(Cek==5){
+                            System.out.println("Game Over");
+                            CekGameOver++;
+                        }
 }
