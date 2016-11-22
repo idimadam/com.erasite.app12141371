@@ -111,4 +111,6 @@ public class GameTebakAngka {
                     }
                    
                 }
+                while(!"exit".equals(nextLevel));
+            }
 }
