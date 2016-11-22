@@ -137,4 +137,10 @@ public class GameTebakAngka {
         System.out.println("===================");
         System.out.println("Daftar Skor Pemain");
         System.out.println("===================");
+        int l;
+        for(l=0;l<jumlahPemain-1;l++){
+            System.out.println(Nama.get(l) + " : " + Skor.get(l));
+        }
+        System.out.println("===================");
+    }
 }
