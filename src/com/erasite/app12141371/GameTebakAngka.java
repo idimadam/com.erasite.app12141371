@@ -81,4 +81,17 @@ public class GameTebakAngka {
                                         + "kali tebakan. Skor anda adalah " + NilaiPasJalan);
                                 break;
                             }
+                            else{
+                                if(Tebakan>AngkaAcak){
+                                    System.out.println("Tebakan Anda terlalu Besar! Anda mempunyai kesempatan " + Kurang + " "
+                                            + "kali lagi" );
+                                }
+                                else{
+
+                                    System.out.println("Tebakan Anda terlalu Kecil! Anda mempunyai kesempatan " + Kurang + " "
+                                            + "kali lagi" );
+                                }
+                            }
+                        }
+                    }
 }
