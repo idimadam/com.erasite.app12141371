@@ -44,4 +44,8 @@ public class GameTebakAngka {
                     System.out.println("# Level " + PilihanLevel);
                     System.out.println("Selamat Datang " + cari);
                     int StarNilaiO=PilihanLevel-1;
+                    BatasTebak=PilihanLevel*100;
+                    System.out.println("Silahkan Tebak Antara 1 s/d " + BatasTebak);
+                    System.out.println("Anda mempunyai kesempatan menebak 5 kali");
+                    int AngkaAcak=angkaRandom.nextInt(BatasTebak);
 }
