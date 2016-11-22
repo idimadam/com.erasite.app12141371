@@ -28,4 +28,8 @@ public class GameTebakAngka {
             cari=input1.nextLine();
             Nama.add(cari);
             int NilaiJalan = 0;
+            int CekGameOver = 0;
+            
+            int akumulasi[]= new int[6];
+            int NilaiPasJalan = 0;
 }
