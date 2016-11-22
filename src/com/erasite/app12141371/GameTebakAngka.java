@@ -38,4 +38,10 @@ public class GameTebakAngka {
                
                 String nextLevel;
                 int PilihanLevel=1;
+                
+                do{
+                    int Cek, Angka, BatasTebak;
+                    System.out.println("# Level " + PilihanLevel);
+                    System.out.println("Selamat Datang " + cari);
+                    int StarNilaiO=PilihanLevel-1;
 }
