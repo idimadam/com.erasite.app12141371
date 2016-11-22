@@ -101,4 +101,14 @@ public class GameTebakAngka {
                     if(PilihanLevel==5){
                         break;
                     }
+                    else{
+                    akumulasi[StarNilaiO]=NilaiPasJalan;  
+                    System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau ketik 'exit'"
+                            + " untuk keluar : ");
+                    nextLevel=input1.nextLine();
+                    PilihanLevel++;
+                    
+                    }
+                   
+                }
 }
