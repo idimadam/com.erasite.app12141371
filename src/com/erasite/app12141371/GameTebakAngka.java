@@ -15,3 +15,9 @@ import java.util.Random;
  * @author IDIMADAM
  */
 public class GameTebakAngka {
+    public static void main(String[] args) {
+        ArrayList <String> Nama = new ArrayList<>();
+        ArrayList <Integer> Skor = new ArrayList<>();
+        Scanner input1 = new Scanner(System.in);
+        Scanner input2 = new Scanner(System.in);
+}
