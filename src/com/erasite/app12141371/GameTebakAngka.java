@@ -123,4 +123,12 @@ public class GameTebakAngka {
                     System.out.println("Score");
                     int nilaiSementara1;
                     int jumlahSementara=Nama.size();
+                    
+                    for(nilaiSementara1=0;nilaiSementara1<jumlahSementara;nilaiSementara1++){
+                        System.out.println(Nama.get(nilaiSementara1) + " : " + Skor.get(nilaiSementara1));
+                    }
+                    
+            }
+            
+        }
 }
