@@ -59,4 +59,22 @@ public class GameTebakAngka {
                             int Tebakan=input2.nextInt();
                             int Kurang=4-Cek;
                             if(Tebakan==AngkaAcak){
+                                if(Cek==0){
+                                    NilaiPasJalan=PilihanLevel*100;
+                                }
+                                else if(Cek==1){
+                                    NilaiPasJalan=PilihanLevel*70;
+                                }
+                                else if(Cek==2){
+                                    NilaiPasJalan=PilihanLevel*50;
+                                }
+                                else if(Cek==3){
+                                    NilaiPasJalan=PilihanLevel*30;
+                                }
+                                else{
+                                    NilaiPasJalan=0;
+                                }
+                                
+                                int NeTebak=Cek+1;
+                            }
 }
