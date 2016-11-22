@@ -20,4 +20,6 @@ public class GameTebakAngka {
         ArrayList <Integer> Skor = new ArrayList<>();
         Scanner input1 = new Scanner(System.in);
         Scanner input2 = new Scanner(System.in);
+        Random angkaRandom = new Random();
+        String cari;
 }
