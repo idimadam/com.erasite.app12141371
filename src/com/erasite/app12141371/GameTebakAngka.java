@@ -32,4 +32,10 @@ public class GameTebakAngka {
             
             int akumulasi[]= new int[6];
             int NilaiPasJalan = 0;
+            
+            /* BEGIN */
+            if(!("y").equals(cari)){  
+               
+                String nextLevel;
+                int PilihanLevel=1;
 }
