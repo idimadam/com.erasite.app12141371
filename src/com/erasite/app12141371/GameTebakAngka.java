@@ -131,4 +131,10 @@ public class GameTebakAngka {
             }
             
         }
+        
+        while(!"y".equals(cari));
+        int jumlahPemain=Nama.size();
+        System.out.println("===================");
+        System.out.println("Daftar Skor Pemain");
+        System.out.println("===================");
 }
