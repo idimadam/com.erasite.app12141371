@@ -76,5 +76,9 @@ public class GameTebakAngka {
                                 }
                                 
                                 int NeTebak=Cek+1;
+                                
+                                System.out.println("Selamat Anda berhasil menebak Angkaka dalam " + NeTebak + " "
+                                        + "kali tebakan. Skor anda adalah " + NilaiPasJalan);
+                                break;
                             }
 }
