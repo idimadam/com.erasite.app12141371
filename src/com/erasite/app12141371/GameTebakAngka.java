@@ -113,4 +113,8 @@ public class GameTebakAngka {
                 }
                 while(!"exit".equals(nextLevel));
             }
+            for(int rO=0; rO<5; rO++){
+                NilaiJalan=NilaiJalan+akumulasi[rO];  
+            }
+            Skor.add(NilaiJalan);
 }
