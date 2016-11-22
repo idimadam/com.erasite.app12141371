@@ -54,4 +54,9 @@ public class GameTebakAngka {
                             System.out.println("Game Over");
                             CekGameOver++;
                         }
+                        else{  
+                            System.out.print("Tebakan Anda ? ");
+                            int Tebakan=input2.nextInt();
+                            int Kurang=4-Cek;
+                            if(Tebakan==AngkaAcak){
 }
