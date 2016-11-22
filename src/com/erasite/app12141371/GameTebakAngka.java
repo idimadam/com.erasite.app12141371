@@ -22,4 +22,10 @@ public class GameTebakAngka {
         Scanner input2 = new Scanner(System.in);
         Random angkaRandom = new Random();
         String cari;
+        
+        do{
+            System.out.print("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian tekan enter = ");
+            cari=input1.nextLine();
+            Nama.add(cari);
+            int NilaiJalan = 0;
 }
