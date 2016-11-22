@@ -117,4 +117,10 @@ public class GameTebakAngka {
                 NilaiJalan=NilaiJalan+akumulasi[rO];  
             }
             Skor.add(NilaiJalan);
+            
+            if(!"y".equals(cari)){
+                            
+                    System.out.println("Score");
+                    int nilaiSementara1;
+                    int jumlahSementara=Nama.size();
 }
